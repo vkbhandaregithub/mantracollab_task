@@ -1,13 +1,14 @@
 import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
+import logo from '../../assets/logo.png'
 // import { Link } from 'react-router-dom'
 const Header = () => {
 
     return (
         <nav className="navbar navbar-expand-md navbar-container navbar-light bg-light fixed-top">
             <a className="navbar-brand logo text-info" href="/">
-                MyBroker
+                <img src={logo} alt="logo" />
             </a>
             <button
                 className="navbar-toggler"
@@ -21,7 +22,7 @@ const Header = () => {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav  mx-auto gap-3">
+                <ul className="navbar-nav mx-auto gap-3">
 
                     <li className="nav-item">
                         <a className="nav-link" href="/">

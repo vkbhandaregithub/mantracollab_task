@@ -9,3 +9,13 @@ a {
   font-size: 14px !important;
   text-transform: uppercase;
 }
+.navbar-container li a {
+  box-shadow: inset 0 0 0 0 lightskyblue;
+  transition: all 0.3s ease-in-out;
+  color: black !important;
+}
+.navbar-container li a:hover,
+.navbar-container li a:active {
+  box-shadow: inset 200px 0 0 0 lightskyblue;
+  color: white !important;
+}
