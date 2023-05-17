@@ -1,0 +1,11 @@
+.navbar-container {
+  padding: 7px 50px !important;
+}
+.logo {
+  font-size: 22px !important;
+  font-family: "Nunito Sans", sans-serif;
+}
+a {
+  font-size: 14px !important;
+  text-transform: uppercase;
+}
