@@ -1,21 +1,79 @@
 .navbar-container {
   padding: 7px 50px !important;
+  /* background-color: rgba(232, 236, 236, 0.856); */
 }
+
 .logo {
   font-size: 22px !important;
   font-family: "Nunito Sans", sans-serif;
 }
+
 a {
   font-size: 14px !important;
   text-transform: uppercase;
 }
+
 .navbar-container li a {
-  box-shadow: inset 0 0 0 0 lightskyblue;
+  box-shadow: inset 0 0 0 0 #ffb703;
   transition: all 0.3s ease-in-out;
   color: black !important;
 }
+
 .navbar-container li a:hover,
 .navbar-container li a:active {
-  box-shadow: inset 200px 0 0 0 lightskyblue;
-  color: white !important;
+  box-shadow: inset 200px 0 0 0 #ffb703;
+  /* color: white !important; */
+}
+
+@media (max-width: 600px) {
+
+  .navbar-container li a:hover,
+  .navbar-container li a:active {
+    box-shadow: inset 200px 0 0 0 #ffb703;
+    /* color: white !important; */
+    width: fit-content;
+    padding: 7px 10px;
+  }
+}
+
+.get-info-btn {
+  background-color: transparent;
+  border: 2px solid #ffb703 !important;
+  font-weight: 600 !important;
+
+  box-shadow: inset 0 0 0 0 #ffb703;
+  transition: all 0.3s ease-in-out;
+}
+
+.get-info-btn:hover {
+  box-shadow: inset 200px 0 0 0 #ffb703;
+}
+
+@media (min-width: 380px) and (max-width: 750px) {
+  .get-info-btn {
+    margin-top: 10px;
+  }
+
+  .navlist {
+    background-color: rgba(186, 190, 190, 0.413) !important;
+    padding: 30px;
+  }
+
+  .navbar-container li a {
+    box-shadow: inset 0 0 0 0 transparent;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: all 0.3s ease-in-out;
+    color: black !important;
+  }
+
+  .navbar-container li a:hover,
+  .navbar-container li a:active {
+    color: #ffb703 !important;
+    box-shadow: inset 200px 0 0 0 transparent;
+  }
+
+  .hamburger-menu {
+    cursor: pointer;
+  }
 }

@@ -1,0 +1,44 @@
+.homepage-container {
+    width: 100vw;
+    height: fit-content;
+    padding: 50px;
+    background-color: rgba(232, 236, 236, 0.993);
+}
+
+.cta-btn {
+    background-color: #ffb703 !important;
+    border: 2px solid #fac12f !important;
+    transition: all .4s ease-in-out;
+    border-radius: 0 !important;
+    /* border: 1px solid black; */
+}
+
+.cta-btn:hover {
+    cursor: pointer;
+    background-color: #ffb80381 !important;
+    border: 2px solid black !important;
+}
+
+.showcta {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(174, 97, 97);
+
+}
+
+.showcta_child {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(92, 16, 16);
+}
+
+@media (min-width:320px) and (max-width:550px) {
+
+    html {
+        font-size: 50%;
+    }
+
+}
