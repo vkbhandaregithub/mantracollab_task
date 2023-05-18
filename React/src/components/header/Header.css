@@ -1,6 +1,7 @@
 .navbar-container {
   padding: 7px 50px !important;
-  /* background-color: rgba(232, 236, 236, 0.856); */
+  background-color: rgba(232, 236, 236, 0.856);
+  backdrop-filter: blur(4px);
 }
 
 .logo {
