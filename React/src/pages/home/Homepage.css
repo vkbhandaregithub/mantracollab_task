@@ -3,6 +3,7 @@
     height: fit-content;
     padding: 50px;
     background-color: rgba(232, 236, 236, 0.993);
+    overflow: hidden;
 }
 
 .cta-btn {

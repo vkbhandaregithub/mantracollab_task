@@ -1,56 +1,63 @@
 const properties = [
   {
     id: 1,
-    image: "../../public/images/bgmain3.jpg",
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
     city: "pune",
-    price: "30L",
+    price: "85L",
     category: "rowhouse",
     description: "Best Location With Best Price, Best Deal For You.",
   },
 
   {
     id: 2,
-    image: "../../public/images/bgmain4.jpg",
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
     city: "mumbai",
-    price: "30L",
+    price: "70L",
     category: "flat",
     description: "Get your dream home at premium location in this area.",
   },
   {
     id: 3,
-    image: "../../public/images/bgmain4.jpg",
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
     city: "banglore",
-    price: "30L",
+    price: "40L",
     category: "bunglow",
     description: "Best Location With Best Price, Best Deal For You",
   },
   {
     id: 4,
-    image: "../../public/images/bgmain2.jpg",
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
     city: "pune",
-    price: "30L",
+    price: "90L",
     category: "bunglow",
     description: "Best Location With Best Price, Best Deal For You",
   },
   {
     id: 5,
-    image: "../../public/images/bgmain2.jpg",
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
     city: "mumbai",
-    price: "30L",
+    price: "80L",
     category: "flat",
     description: "Get your dream home at premium location in this area.",
   },
   {
     id: 6,
-    image: "../../public/images/bgmain4.jpg",
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
     city: "delhi",
-    price: "30L",
+    price: "40L",
     category: "bunglow",
     description: "Best Location With Best Price, Best Deal For You",
   },
   {
     id: 7,
-    image: "../../public/images/bgmain3.jpg",
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
     city: "banglore",
     price: "30L",
     category: "flat",
@@ -58,9 +65,28 @@ const properties = [
   },
   {
     id: 8,
-    image: "../../public/images/bgmain2.jpg",
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
     city: "delhi",
-    price: "30L",
+    price: "90L",
+    category: "rowhouse",
+    description: "Best Location With Best Price, Best Deal For You",
+  },
+  {
+    id: 9,
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
+    city: "mumbai",
+    price: "90L",
+    category: "rowhouse",
+    description: "Best Location With Best Price, Best Deal For You",
+  },
+  {
+    id: 10,
+    image:
+      "https://i2.au.reastatic.net/800x450-crop/a07e1a039b71a4c748dd60f716276c0a7148b889253ff414d075f94f0354ab9b/main.jpg",
+    city: "delhi",
+    price: "90L",
     category: "rowhouse",
     description: "Best Location With Best Price, Best Deal For You",
   },
