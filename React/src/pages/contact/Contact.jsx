@@ -27,8 +27,8 @@ const Contact = () => {
                         <div className="col-md-6">
                             <div className="contact-info">
                                 <h4>Our Office</h4>
-                                <p>5992 GREENSBORO DRIVE,MISSISSAUGA,ON</p>
-                                <p>L5M 5S5, ONTARIO, CANADA</p>
+                                <p>10011 GREENSBORO DRIVE,MISSISSAUGA,ON</p>
+                                <p>L5M$ 5S5FDS, ONTARIO, CANADA</p>
                                 <p>MUMBAI, JAIPUR, HYDERABAD, INDIA</p>
                                 <p>Email: info@contact.com</p>
                             </div>
