@@ -13,13 +13,13 @@ const Homepage = () => {
                                 Find your dream property  with us.
                             </h1>
                             <p className='my-3'>No brokarage. No Hidden Charges.</p>
-                            {/* linking cta to contact */}
 
+                            {/* linking cta to contact */}
                             <Link to={'/contact'}>
                                 <button className='btn cta-btn '>Contact us.</button>
                             </Link>
-
                             {/* linking cta to contact end */}
+
                         </div>
                         <div className="col-md-6 col-10 home-img-container order-lg-2 mx-auto mt-3 order-1 p-5 d-flex justify-content-center align-items-center">
                             <img src={home} alt="" className='img-fluid' />
