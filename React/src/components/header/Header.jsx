@@ -56,9 +56,9 @@ const Header = () => {
             <div className={`collapse navbar-collapse navlist ${isMenuOpen ? 'show' : ''}`} id="navbarNav">
                 <ul className="navbar-nav mx-auto gap-3">
                     <li className="nav-item">
-                        <a className="nav-link" href="/">
+                        <Link className="nav-link" to={"/"}>
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to={'/property'}>
@@ -66,19 +66,14 @@ const Header = () => {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/agents">
-                            Agents
-                        </a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/testimonials">
+                        <Link className="nav-link" to={"/testimonials"}>
                             Testimonials
-                        </a>
+                        </Link>
                     </li>
                 </ul>
-                <a className="btn get-info-btn ms-md-3 ms-auto" href="/contact">
+                <Link className="btn get-info-btn ms-md-3 ms-auto" to={"/contact"}>
                     Get in Touch
-                </a>
+                </Link>
             </div>
         </nav>
     );
