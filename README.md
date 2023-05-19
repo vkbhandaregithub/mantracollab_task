@@ -7,6 +7,7 @@ This is a property site built using React.js. It provides a platform for users t
 Display properties with details such as city, image, price, and description.   
 Filter properties by city.  
 Search properties by city.  
+Adding blur effect to header navbar so whenever scrolls content behind that looks blured.
 Responsive design for seamless viewing on different devices.
 ## Technologies and Libraries Used
 React.js: A JavaScript library for building user interfaces.
