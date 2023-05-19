@@ -57,7 +57,7 @@ function Properties() {
                 ))}
             </ul>
 
-            <div className="row cards-container row-cols-1 row-cols-md-4 g-4">
+            <div className="row cards-container container row-cols-1 row-cols-md-4 g-4">
                 {filteredProperty.map(({ id, city, image, price, description }) => (
                     <div key={id}>
                         <Card city={city} image={image} price={price} description={description} />

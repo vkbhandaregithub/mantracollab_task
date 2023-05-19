@@ -42,4 +42,13 @@
         font-size: 50%;
     }
 
+    .homepage-container {
+        width: 100vw;
+        height: 100vh;
+        padding: 50px;
+        background-color: rgba(232, 236, 236, 0.993);
+        overflow: hidden;
+    }
+
+
 }

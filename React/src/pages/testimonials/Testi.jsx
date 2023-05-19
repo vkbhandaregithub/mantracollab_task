@@ -15,7 +15,7 @@ const Testi = () => {
                     {
                         testimonials.map((ele, i) => {
                             return (
-                                <div className="col-md-4 col-10 mx-auto d-flex justify-content-center align-items-center mb-3" key={i}>
+                                <div className="col-md-4 col-12 mx-auto d-flex justify-content-center align-items-center mb-3" key={i}>
                                     <div className="card-container">
                                         <div className="card-img">
                                             <img src={ele.avatar} alt="card-avatar" className='img-fluid' />
