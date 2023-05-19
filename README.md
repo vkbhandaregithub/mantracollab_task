@@ -1,5 +1,5 @@
 
-#Live Link - https://proepertyprojectreact.netlify.app/
+#Live Link - https://property-site-reactjs.netlify.app/
 # Property Site In ReactJS
 This is a property site built using React.js. It provides a platform for users to search and explore various properties. The project utilizes several modules and libraries to enhance the functionality and user experience.
 
