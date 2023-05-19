@@ -52,7 +52,7 @@ a {
 
 @media (min-width: 380px) and (max-width: 750px) {
   .get-info-btn {
-    margin-top: 10px;
+    margin: 20px !important;
   }
 
   .navlist {
