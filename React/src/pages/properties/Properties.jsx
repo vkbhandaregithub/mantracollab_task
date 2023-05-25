@@ -6,23 +6,26 @@ import Card from '../../components/card/Card';
 
 function Properties() {
     const [activeTab, setActiveTab] = useState('all');
-    const [filteredProperty, setFilteredProperty] = useState(properties);
+    const [filteredProperty, setFilteredProperty] = useState(properties); //adding data in filteredProp
     const [searchQuery, setSearchQuery] = useState('');
 
     const handleTabSelect = (city) => {
         setActiveTab(city);
         setFilteredProperty(
             city === 'all'
-                ? properties
-                : properties.filter((property) => property.city === city)
+                ?
+                properties
+                :
+                properties.filter((property) => property.city === city)
         );
     };
-
+    // for search
     const handleSearchChange = (event) => {
         const query = event.target.value.toLowerCase();
         setSearchQuery(query);
+        // search base on city
         setFilteredProperty(
-            properties.filter((property) =>
+            properties.filter((property, ele) =>
                 property.city.toLowerCase().includes(query)
             )
         );
